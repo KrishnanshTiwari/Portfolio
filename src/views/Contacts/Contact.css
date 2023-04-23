@@ -1,0 +1,23 @@
+.Contact-Container {
+    margin-top: 1.2rem;
+}
+
+.Contact-Container a {
+    color: var(--white);
+    margin: 0 1rem;
+    font-size: 1.6rem;
+}
+
+.Contact-Box {
+    background-color: var(--black-high);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--aqua-low);
+    padding: 1rem;
+}
+
+.Contact-Container a:hover i {
+    color: rgba(54, 54, 54, 0.966);
+}

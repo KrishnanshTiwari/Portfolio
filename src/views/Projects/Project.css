@@ -1,0 +1,12 @@
+.Project h1 {
+    color: var(--white);
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+@media only screen and (min-width: 2100px) {
+    .Project h1{
+        font-size: 4rem;
+    }
+}

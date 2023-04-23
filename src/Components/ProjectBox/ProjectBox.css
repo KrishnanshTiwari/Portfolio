@@ -1,0 +1,52 @@
+.Project h1 {
+    color: var(--white);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.Project-container {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    margin: 3rem auto;
+    width: 60%;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Project-container h2 {
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.Project-container p {
+    text-align: justify;
+    color: var(--white-low);
+    margin-bottom: 1.5rem;
+    font-family: var(--font);
+    line-height: 1.5rem;
+}
+
+.Project-container a {
+    color: var(--aqua-low);
+    margin-left: 0.6rem;
+    display: inline-block;
+
+}
+
+.Project-container a i {
+    margin-left: 0.4rem;
+}
+
+.Project-container a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.4s;
+    color: var(--aqua);
+}
+@media only screen and (min-width: 2100px) {
+    .Project h1{
+        font-size: 4rem;
+    }
+}

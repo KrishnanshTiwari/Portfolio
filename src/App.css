@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+:root {
+    --aqua: #05e6ee;
+    --aqua-low: #60aeb0;
+    --white: #ffffff;
+    --white-low :#b4b8c1;
+    --black-high: #141724;
+    --black-body: #031a30;
+    --black-nav: #072340;
+
+    --font: 'Source Code Pro', monospace;
+    --sfont: 'Work Sans', sans-serif;
+}
+
+* {
+    font-family: var(--sfont);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: 2000px;
+    background-color: var(--black-body);
+}

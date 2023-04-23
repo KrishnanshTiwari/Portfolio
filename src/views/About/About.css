@@ -1,0 +1,108 @@
+.about {
+    padding: 1rem 0rem;
+}
+
+.about h1 {
+    color: var(--white);
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-content .about-image img {
+    
+    width: 70%;
+    height: 90%;
+    position: relative;
+}
+
+.about-content .about-text {
+    width: 40%;
+   
+}
+
+.about-content .about-text p {
+    font-family: 'Source Code Pro', monospace;
+    color: var(--white);
+    text-align: justify;
+    line-height: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.about-content .about-text a {
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.3rem;
+    border: 0.15rem solid var(--aqua);
+    text-decoration: none;
+    list-style: none;
+}
+
+.about-content .about-text a:hover {
+    color: var(--black-high);
+    background: var(--aqua);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 750px) {
+    .about-content {
+        display: block;
+    }
+
+    
+
+    .about-content .about-image img {
+        display: flex;
+        padding-top: 2rem;
+        width: 25%;
+        height: 25%;
+        margin: auto;
+        border-radius: 100%;
+    }
+
+    .about-content .about-text  {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-content .about-text a {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+        border-radius: 0.2rem;
+        margin-bottom: 5%;
+        border-radius: 0.3rem;
+        border: 0.15rem solid var(--aqua);
+        text-decoration: none;
+        list-style: none;
+    }
+}
+
+@media only screen and (min-width: 2100px){
+    .about-content{
+        justify-content: space-around;
+    }
+    .about-content .about-text {
+        width: 60%;
+    }
+    .about-content .about-text p{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .about-content .about-image img {
+        width: 70%;
+        height: 90%;
+    }
+    .about h1{
+        font-size: 4rem;
+    }
+}
