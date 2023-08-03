@@ -18,7 +18,7 @@ function About() {
               Hi, my name is Krishnansh Tiwari, a full-stack developer & Competitive programmer with a collaborative mindset and passion for learning.I enjoy building New Projects and solving complex problems.
             </p>
             <a
-              href="https://drive.google.com/file/d/1FMRzNICy92Iv7rQj7Wg0lu1L0nTzAdYH/view"
+              href="https://drive.google.com/file/d/15TEqkgyhEoNzsUEyTuZjfB_vdSFh2nE2/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
