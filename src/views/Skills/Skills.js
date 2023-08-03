@@ -31,17 +31,17 @@ function Skills() {
         {
             id: 'i6',
             title: 'Node',
-            val: 80
+            val: 90
         },
         {
             id: 'i7',
             title: 'Express',
-            val: 80
+            val: 85
         },
         {
             id: 'i8',
             title: 'MongoDB',
-            val: 80
+            val: 90
         },
         
     ]
